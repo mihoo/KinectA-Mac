@@ -10,8 +10,12 @@
 	<string>KinectADebug</string>
 	<key>CFBundleIconFile</key>
 	<string>KinectA.ico</string>
+	<key>CFBundleIconFiles</key>
+	<array>
+		<string>KinectA.ico</string>
+	</array>
 	<key>CFBundleIdentifier</key>
-	<string>com.yourcompany.openFrameworks</string>
+	<string>mihoo.openFrameworks</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundlePackageType</key>
@@ -34,5 +38,7 @@
 	<string>0432</string>
 	<key>DTXcodeBuild</key>
 	<string>4E2002</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.developer-tools</string>
 </dict>
 </plist>

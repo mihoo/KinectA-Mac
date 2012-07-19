@@ -115,9 +115,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1050613D15A62C7D00CFD625 /* KinectA.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = KinectA.icns; sourceTree = "<group>"; };
-		1050613F15A63D3C00CFD625 /* KinectA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KinectA.png; sourceTree = "<group>"; };
-		1050614015A63D8E00CFD625 /* KinectA.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = KinectA.ico; sourceTree = "<group>"; };
 		105CA23F15A9FC30001AA6F7 /* install.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = install.xml; sourceTree = "<group>"; };
 		105CA24415A9FC30001AA6F7 /* cv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cv.h; sourceTree = "<group>"; };
 		105CA24515A9FC30001AA6F7 /* cv.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cv.hpp; sourceTree = "<group>"; };
@@ -453,6 +450,7 @@
 		1084C9AB15A4E7A1004EE134 /* kinectApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = kinectApp.cpp; sourceTree = "<group>"; };
 		1084C9AC15A4E7A1004EE134 /* kinectApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kinectApp.h; sourceTree = "<group>"; };
 		1084C9AD15A4E7A1004EE134 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		10D382E015AB4F4B00DD01E2 /* KinectA.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = KinectA.ico; sourceTree = "<group>"; };
 		BBAB23BE13894E4700AA2426 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
 		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
 		E45BE9710E8CC7DD009D7055 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
@@ -1304,7 +1302,7 @@
 		E4B69B4A0A3A1720003C02F2 = {
 			isa = PBXGroup;
 			children = (
-				1050614015A63D8E00CFD625 /* KinectA.ico */,
+				10D382E015AB4F4B00DD01E2 /* KinectA.ico */,
 				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
 				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
 				E4B69E1C0A3A1BDC003C02F2 /* src */,
@@ -1312,8 +1310,6 @@
 				BB4B014C10F69532006C3DED /* addons */,
 				E45BE5980E8CC70C009D7055 /* frameworks */,
 				E4B69B5B0A3A1756003C02F2 /* KinectADebug.app */,
-				1050613D15A62C7D00CFD625 /* KinectA.icns */,
-				1050613F15A63D3C00CFD625 /* KinectA.png */,
 			);
 			sourceTree = "<group>";
 		};
